@@ -2,7 +2,7 @@
 const nextConfig = {
     generateStaticParams: function () {
         return {
-          '/': { page: '/' }, // Add your custom routes here if needed
+          '/src/app/': { page: '/' }, // Add your custom routes here if needed
         };
       },
 }
