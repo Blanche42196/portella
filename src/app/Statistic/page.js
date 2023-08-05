@@ -352,7 +352,7 @@ export default function Home() {
 
       {!hidden &&
         <div className='grid place-items-center'>
-          <div className="bg-white rounded-xl shadow-xl w-96 p-4 sm:mr-11 sm:ml-11 lg:mr-0 lg:ml-0 md:mr-11 md:ml-11 mt-11 mb-11 ">
+          <div className="bg-white rounded-xl shadow-xl w-96 p-4 sm:mr-2 sm:ml-2 lg:mr-0 lg:ml-0 md:mr-0 md:ml-0 mt-11 mb-11 space-x-44 space-y-44">
             {names.map((el, i) => (
               <div key={i} className='mb-2'>
 
