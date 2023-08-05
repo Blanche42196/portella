@@ -153,7 +153,7 @@ const people = [
     "present": false
   },
   {
-    "name": "Eugene",
+    "name": "Eugène",
     "age": 15,
     "gender": "female",
     "origin": "Paris",
@@ -325,7 +325,7 @@ export default function Home() {
       <Navbar/>
       <Title children={"Statistiques"}/>
 
-         <div className="text-slate-600 text-center font-medium mt-4  lg:text-xl md:text-xl sm:text-xs bg-white rounded-xl shadow-xl p-4 mt-14">
+         <div className="text-slate-600 text-center font-medium mt-4 lg:text-xl md:text-xl sm:text-xs bg-white rounded-xl shadow-xl p-4 mt-14 ml-2 mr-2">
           <p>
             {nbrPresentPeople()}, nombres de personnes présentes 
             <br></br> 
@@ -354,12 +354,11 @@ export default function Home() {
       {!hidden &&
         // {buttonName} = 'Masquer détails' 
         <div className='grid place-items-center'>
-          <div className="bg-white rounded-xl shadow-xl w-96 p-4 sm:mr-2 sm:ml-2 lg:mr-0 lg:ml-0 md:mr-0 md:ml-0 mt-11 mb-11">
+          <div className="bg-white rounded-xl shadow-xl w-96 p-4 sm:mr-4 sm:ml-4 lg:mr-0 lg:ml-0 md:mr-0 md:ml-0 mt-11 mb-11 ">
             {names.map((el, i) => (
               <div key={i} className='mb-2'>
 
                 <div className="grid grid-cols-3 gap-4">
-
                   <div className='grid place-items-start col-span-2'>
                     <span className="text-sm font-medium text-gray-900">{el.name}</span>
                     <span className="text-xs font-medium text-gray-900">Age: {el.age}</span>
