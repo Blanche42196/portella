@@ -14,14 +14,14 @@ function classNames(...classes) {
 const people = [
   {
     "name": "Papa François",
-    "age": 73,
+    "age": 76,
     "gender": "male",
     "origin": "Neuvic",
     "present": true
   },
   {
     "name": "Maman Chatchat",
-    "age": 73,
+    "age": 77,
     "gender": "female",
     "origin": "Neuvic",
     "present": true
@@ -63,14 +63,14 @@ const people = [
   },
   {
     "name": "Zoé",
-    "age": 21,
+    "age": 19,
     "gender": "female",
     "origin": "Paris",
     "present": true
   },
   {
     "name": "Helene",
-    "age": 53,
+    "age": 54,
     "gender": "female",
     "origin": "Paris",
     "present": true
@@ -84,17 +84,17 @@ const people = [
   },
   {
     "name": "Ines",
-    "age": 34,
+    "age": 33,
     "gender": "female",
     "origin": "Marseille",
-    "present": true
+    "present": false
   },
   {
     "name": "Phillipe",
     "age": 55,
     "gender": "male",
     "origin": "Toulon",
-    "present": true
+    "present": false
   },
   {
     "name": "Paul",
@@ -105,7 +105,7 @@ const people = [
   },
   {
     "name": "Arthur",
-    "age": 29,
+    "age": 30,
     "gender": "male",
     "origin": "Bordeaux",
     "present": true
@@ -126,21 +126,21 @@ const people = [
   },
   {
     "name": "Hermine",
-    "age": 27,
+    "age": 26,
     "gender": "female",
     "origin": "Montréal",
     "present": false
   },
   {
     "name": "Ondine",
-    "age": 26,
+    "age": 25,
     "gender": "female",
     "origin": "Paris",
     "present": true
   },
   {
     "name": "Pauline",
-    "age": 24,
+    "age": 23,
     "gender": "female",
     "origin": "Paris",
     "present": true
@@ -154,7 +154,7 @@ const people = [
   },
   {
     "name": "Eugene",
-    "age": 16,
+    "age": 15,
     "gender": "female",
     "origin": "Paris",
     "present": true
