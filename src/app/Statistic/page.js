@@ -331,7 +331,7 @@ export default function Home() {
             <br></br> 
             {calculateAverageAge()}, moyenne d'âge des personnes présentes
             <br></br>
-            {computeUniqueTowns()} lieux d'origines différents: 
+            {computeUniqueTowns()} lieux d'origines différents
             <br></br>
             {GenderPeople()[0][0].toFixed(2)} % d'hommes
             <br></br>
