@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       
       <Navbar/>
-      <Title children={"Activités"}></Title>
+      <Title children={"Activités"}/>
 
       </div>
   );

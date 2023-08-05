@@ -323,7 +323,7 @@ export default function Home() {
 
       {/* className="flex items-center flex-col min-h-screen" */}
       <Navbar/>
-      <Title children={"Statistiques"}></Title>
+      <Title children={"Statistiques"}/>
 
          <div className="text-slate-600 text-center font-medium mt-4  lg:text-xl md:text-xl sm:text-xs bg-white rounded-xl shadow-xl p-4 mt-14">
           <p>

@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <Title children={"Bienvenue à la casa rural de la Portella"}></Title>
+      <Title children={"Organisation"}/>
 
       <div className="grid lg:grid-cols-3 gap-4 rounded-lh mt-11 mb-11 place-items-stretch">
         <Image

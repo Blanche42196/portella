@@ -8,7 +8,7 @@ export default function Home() {
     <div>
 
       <Navbar/>
-      <Title children={"Météo"}></Title>
+      <Title children={"Météo"}/>
       
     </div>
   );
