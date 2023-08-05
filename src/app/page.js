@@ -1,9 +1,5 @@
 "use client";
 
-/* eslint-disable */
-/* eslint-disable no-unused-vars, react/no-children-prop */
-/* eslint-disable */
-
 import Image from 'next/image';
 import { useState } from 'react';
 import Navbar from './navbar';
