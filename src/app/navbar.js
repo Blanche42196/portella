@@ -8,10 +8,10 @@ export default function Navbar() {
             "title": "Accueil",
             "path": "/"
         },
-        // {
-        //     "title": "Météo",
-        //     "path": "/Weather"
-        // },
+        {
+            "title": "Météo",
+            "path": "/Weather"
+        },
         // {
         //     "title": "Activités",
         //     "path": "/Activity"
@@ -33,7 +33,7 @@ export default function Navbar() {
                     {links.map((el,i)=>(
                         <li key={i}>
                             <Link legacyBehavior href={el.path}>
-                                <a className="text-slate-700 text-3xl font-medium hover:text-slate-500">{el.title}</a>
+                                <a className="text-slate-700 lg:text-3xl md:text-xl sm:text-m font-medium hover:text-slate-500">{el.title}</a>
                             </Link>
                         </li>
                     ))}
