@@ -155,7 +155,7 @@ const people = [
   {
     "name": "Eugène",
     "age": 15,
-    "gender": "female",
+    "gender": "male",
     "origin": "Paris",
     "present": true
   },
@@ -324,7 +324,7 @@ export default function Home() {
       <Navbar/>
       <Title children={"Statistiques"}/>
 
-         <div className="text-slate-600 text-center font-medium mt-4 lg:text-xl md:text-xl sm:text-xs bg-white rounded-xl shadow-xl p-4 mt-14 ml-2 mr-2">
+         <div className="text-slate-600 text-center font-medium shadow-[inset_0rem_0.2rem_0.4rem_0_rgb(0,0,0,0.1)] lg:text-xl md:text-xl sm:text-xs bg-slate-300 rounded-xl p-4 mt-14 ml-2 mr-2 grid place-items-center">
           <p>
             {nbrPresentPeople()}, nombres de personnes présentes 
             <br></br> 
@@ -342,7 +342,7 @@ export default function Home() {
 
       <div className='grid place-items-center'>
         <button
-          className="text-slate-700 text-md rounded-xl hover:bg-slate-400 font-medium w-36 h-12 bg-slate-300 mt-4"
+          className="text-slate-700 text-md rounded-xl hover:bg-slate-400 font-medium w-36 h-12 bg-slate-300 mt-4 shadow-lg"
           onClick={() => setHidden(!hidden) && setButtonName(!buttonName)}
         >
           {hidden ? "Afficher détails" : "Masquer détails"}     
