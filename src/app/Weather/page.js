@@ -31,8 +31,8 @@ export default function Home() {
 
       {weatherData ? (
         <div>
-          <h2>{weatherData.city.name}</h2>
-          <p>Temperature: {weatherData.forecast[0].tmax}°C</p>
+          <h2>Tiurana</h2>
+          <p>Temperature : {weatherData.forecast[0].tmax}°C</p>
         </div>
       ) : (
         <p>Loading weather data...</p>

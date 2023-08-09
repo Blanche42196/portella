@@ -5,7 +5,7 @@ const BASE_URL = 'https://api.meteo-concept.com/api/';
 export async function getWeatherData(cityName) {
 
   // const url = "`${BASE_URL}weather?token=${API_KEY}&insee=35238`);"
-  const url = "https://api.meteo-concept.com/api/forecast/daily?token=b60652c20b4bd70143f7201316ebb59b904f0e2754d5d6d273f242e08014e89e&insee=66016"
+  const url = "https://api.meteo-concept.com/api/forecast/daily?token=b60652c20b4bd70143f7201316ebb59b904f0e2754d5d6d273f242e08014e89e&insee=09322"
   try {
     const response = await fetch(url)
     if (!response.ok) {

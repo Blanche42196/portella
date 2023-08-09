@@ -73,14 +73,14 @@ const people = [
     "age": 54,
     "gender": "female",
     "origin": "Paris",
-    "present": true
+    "present": false
   },
   {
     "name": "Lionel",
     "age": 53,
     "gender": "female",
     "origin": "Paris",
-    "present": true
+    "present": false
   },
   {
     "name": "Ines",
@@ -101,28 +101,28 @@ const people = [
     "age": 15,
     "gender": "male",
     "origin": "Marseille",
-    "present": true
+    "present": false
   },
   {
     "name": "Arthur",
     "age": 30,
     "gender": "male",
     "origin": "Bordeaux",
-    "present": true
+    "present": false
   },
   {
     "name": "Mathilde",
     "age": 30,
     "gender": "female",
     "origin": "Bordeaux",
-    "present": true
+    "present": false
   },
   {
     "name": "Joseph",
     "age": 3,
     "gender": "male",
     "origin": "Bordeaux",
-    "present": true
+    "present": false
   },
   {
     "name": "Hermine",
@@ -136,14 +136,14 @@ const people = [
     "age": 25,
     "gender": "female",
     "origin": "Paris",
-    "present": true
+    "present": false
   },
   {
     "name": "Pauline",
     "age": 23,
     "gender": "female",
     "origin": "Paris",
-    "present": true
+    "present": false
   },
   {
     "name": "Arsène",
@@ -185,21 +185,21 @@ const people = [
     "age": 42,
     "gender": "male",
     "origin": "Nouillac",
-    "present": true
+    "present": false
   },
   {
     "name": "Léontine",
     "age": 13,
     "gender": "female",
     "origin": "Nouillac",
-    "present": true
+    "present": false
   },
   {
     "name": "Juliette",
     "age": 8,
     "gender": "female",
     "origin": "Nouillac",
-    "present": true
+    "present": false
   },
   {
     "name": "Blanche",
@@ -213,28 +213,28 @@ const people = [
     "age": 76,
     "gender": "male",
     "origin": "Toulouse",
-    "present": false
+    "present": true
   },
   {
     "name": "Jérémie",
     "age": 43,
     "gender": "male",
     "origin": "Paris",
-    "present": false
+    "present": true
   },
   {
     "name": "Ismaël",
     "age": 8,
     "gender": "male",
     "origin": "Paris",
-    "present": false
+    "present": true
   },
   {
     "name": "Yasmine",
     "age": 13,
     "gender": "female",
     "origin": "Paris",
-    "present": false
+    "present": true
   },
 
 ]
