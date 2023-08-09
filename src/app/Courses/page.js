@@ -95,7 +95,7 @@ export default function Courses() {
                 {liste.map((el,i) => (
                     <li key={i} className="grid gap-2 grid-cols-2 overflow-hidden flex items-center text-center px-1 py-1 shadow sm:px-6 bg-stone-500 rounded-md">
                         <div className="grid justify-items-start text-md capitalize">
-                            {el}
+                            {el} 
                         </div>
                         <div className="grid justify-items-end">
                             <XMarkIcon className="h-8 w-8 hover:text-white"
