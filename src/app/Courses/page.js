@@ -77,7 +77,7 @@ export default function Courses() {
                     />
                 </div>
             </div>
-            <div className="grid justify-items-center ">
+            <div className="grid justify-items-center "> 
                 <button
                     type="button"
                     className="inline-flex items-center gap-x-1.5 rounded-md bg-slate-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  mt-5"
