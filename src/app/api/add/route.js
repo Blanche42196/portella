@@ -9,19 +9,19 @@ export async function GET(request) {
     await client.connect();
     const db = client.db(dbName);
     const collection = db.collection('courses');
-    console.log("Connected to the database");
+    // console.log("Connected to the database");
 
     // Extract the data from the request body
     const name = request.nextUrl.search.replace("?=query","")
-    console.log("adding to db", name)
+    // console.log("adding to db", name)
 
     try {
         // Insert the document with the provided data
         await collection.insertOne({ name });
-        console.log("Document added:", name);
-        console.log("HEllo world");
+        // console.log("Document added:", name);
+        // console.log("HEllo world");
     } catch (err) {
-        console.log("error", err);
+        // console.log("error", err);
         return NextResponse.json({
             message: "Failed to add document",
             error: err.message,
