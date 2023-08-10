@@ -10,35 +10,6 @@ export async function GET(request) {
     const db = client.db(dbName);
     const collection = db.collection('courses');
     // console.log("Connected to the database");
-    console.log("Connected to the database");console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-
-    console.log("Connected to the database");
-    console.log("Connected to the database");
-    
 
     // Extract the data from the request body
     const name = request.nextUrl.search.replace("?=query","")

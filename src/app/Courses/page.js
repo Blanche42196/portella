@@ -11,8 +11,8 @@ export default function Courses() {
     const [liste, setListe] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 
-    // const url = "https://portella.vercel.app/api/"
-    const url = "http://localhost:3000/api/"
+    const url = "https://portella.vercel.app/api/"
+    // const url = "http://localhost:3000/api/"
     async function readDb() {
         console.log("reading db...")
         try {
