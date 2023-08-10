@@ -19,6 +19,7 @@ export async function GET(request) {
         // Insert the document with the provided data
         await collection.insertOne({ name });
         console.log("Document added:", name);
+        console.log("HEllo world");
     } catch (err) {
         console.log("error", err);
         return NextResponse.json({
